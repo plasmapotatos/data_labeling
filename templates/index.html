@@ -16,6 +16,8 @@
         <button class="button" onclick="labelVideo('soft')">Soft Fall</button>
         <button class="button" onclick="labelVideo('hard')">Hard Fall</button>
         <button class="button" onclick="previousVideo()">Previous</button>
+        <input type="number" id="videoIndex" min="1" placeholder="Enter video index">
+        <button class="button" onclick="goToVideo()">Go</button>
     </div>
     <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
