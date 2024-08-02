@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fall Detection Labeling</title>
+    <style>
+        video {
+            max-width: 100%;
+            height: auto;
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        .button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Fall Detection Labeling</h1>
+    <video width="320" height="240" autoplay loop>
+        <source src="video_1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video>
+    <video id="videoPlayer" controls>
+        <source src="video_1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="button-container">
+        <button class="button" onclick="labelVideo('soft')">Soft Fall</button>
+        <button class="button" onclick="labelVideo('hard')">Hard Fall</button>
+    </div>
+
+    <script>
+        const videoPlayer = document.getElementById('videoPlayer');
+        const videoFiles = ["videos/video_1.mp4", "videos/resized_video.mp4"]; // Add all your video paths here
+        let currentIndex = 0;
+
+        function labelVideo(category) {
+            const videoName = videoFiles[currentIndex].split('/').pop();
+            fetch('/save_label', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ name: videoName, category: category })
+            }).then(response => {
+                if (response.ok) {
+                    nextVideo();
+                }
+            });
+        }
+
+        function nextVideo() {
+            currentIndex++;
+            if (currentIndex < videoFiles.length) {
+                videoPlayer.src = videoFiles[currentIndex];
+                videoPlayer.load();
+            } else {
+                alert('All videos have been labeled!');
+            }
+        }
+    </script>
+</body>
+</html>
