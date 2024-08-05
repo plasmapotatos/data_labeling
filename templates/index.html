@@ -4,6 +4,23 @@
     <meta charset="UTF-8">
     <title>Fall Detection Labeling</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <style>
+        .label-container {
+            margin-top: 20px;
+        }
+        .label-item {
+            margin-bottom: 10px;
+        }
+        .label-item img {
+            width: 100px;
+            height: auto;
+            vertical-align: middle;
+        }
+        .label-item span {
+            font-size: 1.2em;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 <body>
     <h1>Fall Detection Labeling</h1>
@@ -15,9 +32,18 @@
     <div class="button-container">
         <button class="button" onclick="labelVideo('soft')">Soft Fall</button>
         <button class="button" onclick="labelVideo('hard')">Hard Fall</button>
+        <button class="button" onclick="labelVideo('none')">Non-Fall</button>
         <button class="button" onclick="previousVideo()">Previous</button>
         <input type="number" id="videoIndex" min="1" placeholder="Enter video index">
         <button class="button" onclick="goToVideo()">Go</button>
+    </div>
+    <div class="comments-container">
+        <label for="comments">Comments:</label>
+        <textarea id="comments" rows="4" cols="50"></textarea>
+    </div>
+    <div class="label-container" id="labelContainer">
+        <h2>Labeled Videos</h2>
+        <!-- Labeled videos will be inserted here -->
     </div>
     <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>

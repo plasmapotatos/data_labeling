@@ -1,10 +1,562 @@
 [
     {
         "name": "video_(1).mp4",
-        "category": "soft"
+        "category": "soft",
+        "comments": "Fall looked a bit unsafe, but still on a soft surface."
     },
     {
         "name": "video_(2).mp4",
-        "category": "hard"
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(3).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(4).mp4",
+        "category": "soft",
+        "comments": "Fall looked relatively safe"
+    },
+    {
+        "name": "video_(5).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(6).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(7).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(8).mp4",
+        "category": "soft",
+        "comments": "Fall looked a bit unsafe"
+    },
+    {
+        "name": "video_(9).mp4",
+        "category": "soft",
+        "comments": "Fall was hard but on a soft mattress. "
+    },
+    {
+        "name": "video_(10).mp4",
+        "category": "soft",
+        "comments": "Fall was very hard but on soft mattress"
+    },
+    {
+        "name": "video_(11).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(12).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(13).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(14).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(15).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(16).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(17).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(18).mp4",
+        "category": "soft",
+        "comments": "Arm absorbed lots of the fall"
+    },
+    {
+        "name": "video_(19).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(20).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(21).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(22).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(23).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(24).mp4",
+        "category": "soft",
+        "comments": "Fell hard but on soft mattress"
+    },
+    {
+        "name": "video_(25).mp4",
+        "category": "hard",
+        "comments": "Head hit the floor, body still on mattress"
+    },
+    {
+        "name": "video_(26).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(27).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(28).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(29).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(30).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(31).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(32).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(33).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(34).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(35).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(36).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(37).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(38).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(39).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(40).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(41).mp4",
+        "category": "hard",
+        "comments": "Upper back almost hit the floor, head almost hit the floor."
+    },
+    {
+        "name": "video_(42).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(43).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(44).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(45).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(46).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(47).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(48).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(49).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(50).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(51).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(52).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(53).mp4",
+        "category": "soft",
+        "comments": "Motionless after impact, but on a soft mattress"
+    },
+    {
+        "name": "video_(54).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(55).mp4",
+        "category": "soft",
+        "comments": "Person hit their head slightly"
+    },
+    {
+        "name": "video_(56).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(57).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(58).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(59).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(60).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(61).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(62).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(63).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(64).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(65).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(66).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(67).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(68).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(69).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(70).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(71).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(72).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(73).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(74).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(75).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(76).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(77).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(78).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(79).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(80).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(81).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(82).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(83).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(84).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(85).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(86).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(87).mp4",
+        "category": "soft",
+        "comments": "He kind of has a heart attack even though he falls on a mattress"
+    },
+    {
+        "name": "video_(88).mp4",
+        "category": "soft",
+        "comments": "She just collapses on a mattress"
+    },
+    {
+        "name": "video_(89).mp4",
+        "category": "soft",
+        "comments": "Just collapses"
+    },
+    {
+        "name": "video_(90).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(91).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(92).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(93).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(94).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(95).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(96).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(97).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(98).mp4",
+        "category": "hard",
+        "comments": ""
+    },
+    {
+        "name": "video_(99).mp4",
+        "category": "hard",
+        "comments": ""
+    },
+    {
+        "name": "video_(100).mp4",
+        "category": "hard",
+        "comments": ""
+    },
+    {
+        "name": "video_(101).mp4",
+        "category": "hard",
+        "comments": ""
+    },
+    {
+        "name": "video_(102).mp4",
+        "category": "hard",
+        "comments": ""
+    },
+    {
+        "name": "video_(103).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(104).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(105).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(106).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(107).mp4",
+        "category": "soft",
+        "comments": ""
+    },
+    {
+        "name": "video_(108).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(109).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(110).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(111).mp4",
+        "category": "none",
+        "comments": ""
+    },
+    {
+        "name": "video_(112).mp4",
+        "category": "none",
+        "comments": ""
     }
 ]

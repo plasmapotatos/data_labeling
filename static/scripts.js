@@ -2,6 +2,7 @@ const videoPlayer = document.getElementById('videoPlayer');
 const videoNameElement = document.getElementById('videoName');
 const videoIndexInput = document.getElementById('videoIndex');
 const labelContainer = document.getElementById('labelContainer');
+const commentsField = document.getElementById('comments');
 let videoFiles = [];
 let currentIndex = 0;
 let labels = [];
@@ -30,7 +31,7 @@ window.onload = () => {
             console.error('There has been a problem with your fetch operation:', error);
         });
 
-    fetch('/static/labels.json')
+    fetch('/get_labels')
         .then(response => response.json())
         .then(data => {
             labels = data;
@@ -47,13 +48,15 @@ function updateVideo() {
         videoPlayer.load();
         const videoName = videoFiles[currentIndex].split('/').pop();
         videoNameElement.textContent = `Video: ${videoName}`;
+        commentsField.value = labels[currentIndex]?.comments || '';
     }
 }
 
 function labelVideo(category) {
     const videoName = videoFiles[currentIndex].split('/').pop();
+    const comments = commentsField.value;
     // Update the label for the current video
-    labels[currentIndex] = { name: videoName, category: category };
+    labels[currentIndex] = { name: videoName, category: category, comments: comments };
     saveLabels();
     nextVideo();
 }
